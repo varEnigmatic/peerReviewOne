@@ -75,6 +75,12 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(2.2) rotate(7200deg);
+
+header .new-pic {
+  background: url('images/psfour.jpg') no-repeat top center;
+}
+
+
 }
 .tag {
   background-color: #aeffff;
@@ -93,7 +99,7 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #aeffff;
+  background: #e2e2e2;
   border-bottom: 4px solid #fff;
   border-radius: 6px;
   transition: all .5s;
@@ -111,7 +117,7 @@ ul.skills {
   border-radius: 6px;
   display: inline-block;
   background: #aeffff;
-  color: white;
+  color: blue;
   padding: 5px 10px;
   margin: 2px;
 }
@@ -175,7 +181,7 @@ a.social:hover {
       display: flex; 
       max-width: 1200px;
       -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content: space-between;
       margin: 0 auto;
   }
 
